@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Thin.otf) format('openType');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Light.otf) format('openType');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Regular.otf) format('openType');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Medium.otf) format('openType');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Bold.otf) format('openType');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'notoSansKR';
+  src: url(../fonts/NotoSansKR-Black.otf) format('openType');
+  font-weight: 800;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'notoSansKR', sans-serif;
+  font-size: 10px;
+  line-height: 1;
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, address, small, strong, time,
+dl, dt, dd, ol, ul, li,
+form, label, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, figcaption, footer, header, main, nav, section{
+margin: 0;
+padding: 0;
+border: 0;
+}
+article, aside, figcaption, figure, 
+header, footer, main, menu, nav, section{
+display: block;
+}
+span{
+  display: inline-block;
+  font-size: inherit;
+}
+ol, ul {
+list-style: none;
+}
+img{
+  display: block;
+}
+button, input[type=button]{
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+.hide{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
